@@ -1,0 +1,82 @@
+{
+  "heading": "Rapid React - 2022",
+  "skipTeamSelection": false,
+  "pages": [
+    {
+      "name": "Setup",
+    "widgets": [
+      {
+        "name": "Scouter Name",
+        "type": "text",
+        "validation": {
+          "comparison": "greater",
+          "value": 0
+        }
+      },
+      {
+        "name": "Robot on Field",
+        "type": "checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Autonomous",
+    "widgets": [
+      {
+        "name": "Left Hangar Zone",
+        "type": "checkbox"
+      },
+      {
+        "name": "Cargo High",
+        "type": "spinbox",
+        "prefix": "Auto",
+        "buttonColor": "red"
+      },
+      {
+        "name": "Cargo Low",
+        "type": "spinbox",
+        "prefix": "Auto",
+        "buttonColor": "red"
+      }
+    ]
+  },
+  {
+    "name": "Teleop",
+    "widgets": [
+      {
+        "name": "Cargo High",
+        "type": "spinbox",
+        "prefix": "Teleop",
+        "buttonColor": "red"
+      },
+      {
+        "name": "Cargo Low",
+        "type": "spinbox",
+        "prefix": "Teleop",
+        "buttonColor": "red"
+      }
+    ]
+  },
+  {
+    "name": "Endgame",
+    "widgets": [
+      {
+        "name": "Endgame Status",
+        "type": "dropdown",
+        "options": [
+          "None",
+          "Parked",
+          "Low Climb",
+          "Mid Climb",
+          "High Climb",
+          "Traverse Climb"
+        ]
+      },
+      {
+        "name": "Climb Failed",
+        "type": "checkbox"
+      }
+    ]
+  }
+  ]
+}
